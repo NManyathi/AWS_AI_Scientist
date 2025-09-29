@@ -1,0 +1,33 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Results and temporary output
+results.txt
+saved_results/
+
+# ✅ Training dataset: allow all 40 required images
+# (We do NOT ignore data/pet_images/ so all images are uploaded)
+
+# ✅ Testing dataset: ignore all, except samples
+data/uploaded_test_images/*
+!data/uploaded_test_images/sample_*.jpg
