@@ -17,10 +17,10 @@
 #   3. Practical application of command-line tools in a professional environment.
 #
 # VALUE FOR EMPLOYERS / CLIENTS:
-# - Shows ability to design modular, maintainable Python applications.
-# - Demonstrates working knowledge of AI/ML, data validation, and evaluation.
-# - Illustrates experience in building production-ready scripts with measurable 
-#   runtime and performance reporting.
+# - Highlights ability to build clean, modular, and maintainable Python programs.
+# - Demonstrates practical use of AI/ML models alongside validation and evaluation.
+# - Reflects experience in creating production-ready scripts with clear runtime 
+#   tracking and performance reporting.
 # ---------------------------------------------------------------------------
 
 from time import time
