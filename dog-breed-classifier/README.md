@@ -26,14 +26,19 @@ The objective is to:
 ├── run_models_batch.sh      # Script to run all models in one go
 ├── check_images.py          # Main program for classification
 ├── classifier.py            # Helper functions for using CNN models
+├── classify_images.py       # Classifies images using pretrained CNNs
+├── get_pet_labels.py        # Extracts pet labels from image filenames
+├── get_input_args.py        # Parses command-line arguments
 ├── dognames.txt             # List of valid dog names
 ├── results.txt              # Final results and performance stats
 ├── adjust_results4_isadog.py # Adjust results dictionary with dog labels
 ├── calculate_results_stats.py # Compute statistics (accuracy, etc.)
 ├── print_results.py          # Nicely formatted results output
-├── data/                    # Folder containing image dataset
+├── print_functions_for_lab_checks.py
+├── data/                    # Folder containing image dataset(Dog-breed-classifier folder)
 │   ├── pet_images/           # Training dataset (40+ required images)
-│   └── uploaded_test_images/ # (Optional) Your own test images
+│   └── uploaded-test-images_set/ # (Optional) Your own test images
+├── certification badge 5    # Certification badge earned for course/project completion
 └── saved_results/           # (Optional) Store results from different runs
 ```
 
