@@ -1,0 +1,132 @@
+Command Line Arguments:
+     dir = uploaded-test-images_set/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 11 key-value pairs.
+Below are 10 of them:
+ 1 key:                     Cat_01.jpg  label:                        cat
+ 2 key:                     Cat_02.jpg  label:                        cat
+ 3 key:                   Chair_01.jpg  label:                      chair
+ 4 key:              Coffee_mug_01.jpg  label:                 coffee mug
+ 5 key:                     Dog_01.jpg  label:                        dog
+ 6 key:                     Dog_02.jpg  label:                        dog
+ 7 key:                     Dog_03.jpg  label:                        dog
+ 8 key:                     Dog_04.jpg  label:                        dog
+ 9 key:                    Frog_01.png  label:                       frog
+10 key:                    Lion_01.png  label:                       lion
+
+     MATCH:
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat
+
+                    Cat_02.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat
+
+                  Chair_01.jpg: 
+Real:                      chair   Classifier:                  folding chair
+
+             Coffee_mug_01.jpg: 
+Real:                 coffee mug   Classifier:                     coffee mug
+
+                    Dog_03.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+                    Dog_04.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+                   Frog_01.png: 
+Real:                       frog   Classifier:     bullfrog, rana catesbeiana
+
+                   Lion_01.png: 
+Real:                       lion   Classifier: lion, king of beasts, panthera leo
+
+ NOT A MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:            rhodesian ridgeback
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:            rhodesian ridgeback
+
+                 Rabbit_01.png: 
+Real:                     rabbit   Classifier:                           hare
+
+# Total Images 11 # Matches: 8 # NOT Matches: 3
+
+     MATCH:
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Cat_02.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Chair_01.jpg: 
+Real:                      chair   Classifier:                  folding chair  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Coffee_mug_01.jpg: 
+Real:                 coffee mug   Classifier:                     coffee mug  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_03.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_04.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Frog_01.png: 
+Real:                       frog   Classifier:     bullfrog, rana catesbeiana  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Lion_01.png: 
+Real:                       lion   Classifier: lion, king of beasts, panthera leo  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:            rhodesian ridgeback  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:            rhodesian ridgeback  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                 Rabbit_01.png: 
+Real:                     rabbit   Classifier:                           hare  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 11 # Matches: 8 # NOT Matches: 3
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 11  N Dog Images:  4  N NotDog Images:  7 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 11  N Dog Images:  4  N NotDog Images:  7 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+
+*** Results Summary for CNN Model Architecture: RESNET ***
+Number of Images    :  11
+Number of Dog Images:   4
+Number of Not-a Dog Images:   7
+
+*** Percentage Statistics ***
+pct_match           : 72.73
+pct_correct_dogs    : 100.00
+pct_correct_breed   : 50.00
+pct_correct_notdogs : 100.00
+
+*** Misclassified Breeds ***
+Pet Label:                  dog  Classifier Label:  rhodesian ridgeback
+Pet Label:                  dog  Classifier Label:  rhodesian ridgeback
+
+** Total Elapsed Runtime: 0:2:7
