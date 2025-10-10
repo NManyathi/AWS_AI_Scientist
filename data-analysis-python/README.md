@@ -5,11 +5,11 @@
 
 ---
 
-# 📘 Data Analysis with Python — Lessons, Exercises, and Mini-Projects
+# 📘 Data Analysis with Python — Exercises, and Mini-Projects
 
 This repository contains my learning progress and practice work for the **Data Analysis** section of the **AWS AI Scientist Scholarship (Udacity)**.  
 It covers **Python data analysis fundamentals** using Jupyter, NumPy, Pandas, Matplotlib, and Seaborn.  
-Each lesson includes guided exercises and a mini-project demonstrating hands-on application of the concepts learned.
+All code, datasets, and analysis examples here are my own work — created independently to strengthen my understanding of each concept. Only the **Pandas lesson** references data provided through Udacity coursework; all other exercises and projects are fully self-developed.
 
 ---
 
@@ -46,6 +46,8 @@ Understand and use NumPy for efficient numerical computation and array manipulat
 
 **Mini-Project:**  
 📊 *“Statistical Summary Calculator”* — build a tool to compute descriptive statistics using NumPy arrays.
+📊 *Array Operations and Insights* – small practice project demonstrating array-based analysis.
+
 
 ---
 
@@ -104,6 +106,7 @@ Advance your visualization skills with multi-plot layouts, statistical visualiza
 
 **Mini-Project:**  
 📊 *“Sales Performance Dashboard”* — build a visual analytics dashboard showing key sales and revenue metrics.
+📊 *Data Visualization Dashboard* – combines Matplotlib and Seaborn to produce clean, informative visuals.
 
 ---
 
@@ -115,25 +118,21 @@ Advance your visualization skills with multi-plot layouts, statistical visualiza
 ├── 📁 aws_ai_env/                # Shared virtual environment for all projects
 │
 ├── 📁 data-analysis-python/
-│   ├── 📁 01_numpy/
-│   │   ├── lesson.ipynb
+│   ├── 📁 numpy/
 │   │   ├── exercises/
-│   │   └── mini_project_statistical_summary.ipynb
+│   │   └── mini_project_statistical_summary.ipynb & mini_project_array_operations_insights.ipynb
 │   │
-│   ├── 📁 02_pandas/
-│   │   ├── lesson.ipynb
+│   ├── 📁 pandas/
 │   │   ├── exercises/
 │   │   └── mini_project_stock_statistics.ipynb
 │   │
-│   ├── 📁 03_matplotlib_seaborn_part1/
-│   │   ├── lesson.ipynb
+│   ├── 📁 matplotlib_seaborn_part1/
 │   │   ├── exercises/
 │   │   └── mini_project_covid_trends.ipynb
 │   │
-│   ├── 📁 04_matplotlib_seaborn_part2/
-│   │   ├── lesson.ipynb
+│   ├── 📁 matplotlib_seaborn_part2/
 │   │   ├── exercises/
-│   │   └── mini_project_sales_dashboard.ipynb
+│   │   └── mini_project_sales_dashboard.ipynb & mini_project_data_visualization_dashboard.ipynb
 │   │
 │   └── README.md
 ```
@@ -142,34 +141,28 @@ Advance your visualization skills with multi-plot layouts, statistical visualiza
 
 ## 🚀 How to Run
 
-1. **Activate your shared virtual environment (created under main repository):**
+# Follow these steps to set up and explore the notebooks in this project:
+
+1. **Activate your virtual environment (recommended for isolation):**
    ```bash
    # Windows
-   cd path\to\AWS_AI_Scientist
-   aws_ai_env\Scripts\activate
+   path\to\venv\Scripts\activate
 
    # macOS/Linux
-   cd path/to/AWS_AI_Scientist
-   source aws_ai_env/bin/activate
-   ```
+   source path/to/venv/bin/activate
 
 2. **Navigate to this project folder:**
-   ```bash
    cd data-analysis-python
-   ```
+
 
 3. **Launch Jupyter Notebook:**
-   ```bash
    jupyter notebook
-   ```
 
-4. Open any lesson or mini-project notebook and run the cells sequentially to explore the analysis and visualizations.
+
+4. Open any exercises or mini-project notebook and run the cells sequentially to explore the analysis and visualizations.
 
 > 💡 Tip: If you want Jupyter to always use this environment, register it once using:
-> ```bash
-> python -m ipykernel install --user --name=aws_ai_env --display-name "Python (aws_ai_env)"
-> ```
-> Then select **Python (aws_ai_env)** as the kernel in Jupyter.
+python -m ipykernel install --user --name=<your_env_name> --display-name "Python (<your_env_name>)"
 
 ---
 
@@ -177,10 +170,13 @@ Advance your visualization skills with multi-plot layouts, statistical visualiza
 - Developed using **Python 3.x** and **Jupyter Notebook**.  
 - Core libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`.  
 - All exercises and mini-projects demonstrate end-to-end data analysis workflow — from data loading and transformation to visualization and interpretation.  
-- Created as part of the **AWS AI Scientist Scholarship (Udacity)** program.
 
 > 💬 All projects and exercises (except the Pandas lesson) are based on my own work — from selecting datasets to defining project goals and analysis steps.  
 > The Pandas mini-project uses Udacity-provided data and guidance as part of the structured lesson content.
 
 ---
 
+## 📜 License
+
+All materials are original and for educational use only.
+Any data or resources from Udacity are referenced solely for learning purposes and are not redistributed.
