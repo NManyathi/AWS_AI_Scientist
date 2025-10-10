@@ -1,5 +1,3 @@
---- README.md ---
-
 # NumPy
 
 **Objective:**  
@@ -18,6 +16,7 @@ Learn and practice NumPy for efficient numerical computation and array manipulat
 
 **Mini-Project:**  
 📊 **Statistical Summary Calculator** — a small tool to compute descriptive statistics using NumPy arrays.
+📊 *Array Operations and Insights* – small practice project demonstrating array-based analysis.
 
 > **Note:** Generated `.npy` files (e.g., saved arrays) are for local use only and should not be committed, especially if large.
 
