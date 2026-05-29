@@ -203,9 +203,7 @@ AWS_AI_Scientist/
 │   ├── practice_projects/
 │   └── learning_documentation.md
 │
-├── 📁 badges/
-│   ├── scholarship_badges/
-│   └── project_completion_badges/
+├── udacity_aws_ai_scientist_certificate.pdf
 │
 └── README.md
 ```
