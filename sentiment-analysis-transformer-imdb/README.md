@@ -1,4 +1,4 @@
-*## 👨🏽‍💻 Author
+## 👨🏽‍💻 Author
 **Walter Njabulo Manyathi**  
 📍 Data Analyst | Statistician | AWS AI Scholar  
 🔗 [GitHub](https://github.com/NManyathi) • [LinkedIn](https://www.linkedin.com/in/walter-njabulo-manyathi-0b4981172/)
@@ -41,7 +41,7 @@ The objective of this project was to:
 
 ## ⚙️ How It Works
 
-### 1️⃣ Dataset Preparation
+### 1. Dataset Preparation
 
 The IMDB dataset containing 50,000 labeled movie reviews is loaded and split into:
 
@@ -203,7 +203,7 @@ Execute the notebook cells sequentially to:
 
 ---
 
-## ✨ Lessons Learned
+## 📘 Lessons Learned
 
 * Understanding transformer attention mechanisms
 * Building custom transformer architectures in PyTorch
@@ -219,9 +219,15 @@ Built as part of the **Udacity AWS AI Scientist Scholarship** program, focused o
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements  
 
-- Experiment with larger transformer architectures
-- Add attention visualization
-- Implement model checkpoint saving
-- Deploy sentiment classifier as a web application
+Potential improvements for future versions of this project include:
+
+- Training the transformer model for more epochs to improve accuracy  
+- Experimenting with larger embedding dimensions and deeper transformer layers  
+- Adding learning rate scheduling for more stable training  
+- Comparing custom transformer performance against pretrained BERT classifiers  
+- Visualizing training and validation loss using graphs  
+- Deploying the sentiment classifier as a simple web application  
+
+---
