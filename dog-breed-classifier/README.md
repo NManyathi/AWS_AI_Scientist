@@ -1,4 +1,11 @@
-# Dog Breed Classifier  
+## 👨🏽‍💻 Author
+**Walter Njabulo Manyathi**  
+📍 Data Analyst | Statistician | AWS AI Scholar  
+🔗 [GitHub](https://github.com/NManyathi) • [LinkedIn](https://www.linkedin.com/in/walter-njabulo-manyathi-0b4981172/)
+
+---
+
+# 🐶 Dog Breed Classifier  
 
 This project uses **a pre-trained deep learning model** to classify images as **dogs vs. not dogs**, and if the image is a dog, it further identifies the **specific dog breed**. It is part of Udacity’s *AI Programming with Python Nanodegree*.
 
@@ -23,6 +30,7 @@ The objective is to:
 ```
 .
 ├── README.md                # Project documentation
+├── case_study.md            # Detailed project case study
 ├── run_models_batch.sh      # Script to run all models in one go
 ├── check_images.py          # Main program for classification
 ├── classifier.py            # Helper functions for using CNN models
@@ -77,6 +85,19 @@ The objective is to:
    - % correct breeds  
    - % correct “not-dog” classification  
    - Overall accuracy  
+
+---
+
+## 🧩 Skills Demonstrated
+
+- Transfer learning
+- Image classification
+- Deep learning workflows
+- CNN model evaluation
+- Data preprocessing
+- Performance comparison of architectures
+- Command-line Python scripting
+- Working with pretrained models
 
 ---
 
@@ -159,8 +180,17 @@ pct_correct_notdogs : 90.00
 
 ---
 
-## ✨ Lessons Learned  
+## 📘 Lessons Learned
 
 - Importance of **transfer learning** in saving training time.  
 - Strengths and weaknesses of different CNN architectures.  
 - How to preprocess data and evaluate model performance.  
+
+---
+
+## 🔮 Future Improvements
+
+- Add support for custom image uploads
+- Improve breed prediction visualization
+- Experiment with additional CNN architectures
+- Export prediction summaries automatically

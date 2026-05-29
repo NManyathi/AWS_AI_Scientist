@@ -5,7 +5,7 @@
 
 ---
 
-# 📘 Data Analysis with Python — Exercises, and Mini-Projects
+# 📊 Data Analysis with Python — Exercises & Mini-Projects
 
 This repository contains my learning progress and practice work for the **Data Analysis** section of the **AWS AI Scientist Scholarship (Udacity)**.  
 It covers **Python data analysis fundamentals** using Jupyter, NumPy, Pandas, Matplotlib, and Seaborn.  
@@ -110,6 +110,19 @@ Advance your visualization skills with multi-plot layouts, statistical visualiza
 
 ---
 
+## 🧩 Skills Demonstrated
+
+- Python programming
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical analysis
+- Data visualization
+- Working with NumPy and Pandas
+- Dashboard-style plotting
+- Jupyter Notebook workflows
+
+---
+
 ## 🧩 Repository Structure
 
 ```bash
@@ -169,7 +182,7 @@ python -m ipykernel install --user --name=<your_env_name> --display-name "Python
 ## 🧾 Notes
 - Developed using **Python 3.x** and **Jupyter Notebook**.  
 - Core libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`.  
-- All exercises and mini-projects demonstrate end-to-end data analysis workflow — from data loading and transformation to visualization and interpretation.  
+- All exercises and mini-projects demonstrate end-to-end data analysis workflows — from data loading and transformation to visualization and interpretation.  
 
 > 💬 All projects and exercises (except the Pandas lesson) are based on my own work — from selecting datasets to defining project goals and analysis steps.  
 > The Pandas mini-project uses Udacity-provided data and guidance as part of the structured lesson content.
