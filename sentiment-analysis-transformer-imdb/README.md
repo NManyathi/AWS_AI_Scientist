@@ -43,13 +43,32 @@ The objective of this project was to:
 
 ### 1. Dataset Preparation
 
-The IMDB dataset containing 50,000 labeled movie reviews is loaded and split into:
+This project uses the IMDB Movie Reviews Dataset, which contains 50,000 labeled movie reviews for binary sentiment classification (positive or negative).
 
-* Training dataset
-* Validation dataset
-* Test dataset
+The dataset is automatically:
 
-The dataset is automatically extracted from the compressed archive.
+Loaded from the compressed archive
+Extracted into the project directory
+Split into:
+Training dataset
+Validation dataset
+Test dataset
+
+This preparation step ensures the data is organized correctly before transformer model training begins.
+
+📥 Dataset Download
+
+The dataset is not included in this repository because the archive size exceeds GitHub's recommended file size limits.
+
+Download the IMDB dataset from the official Stanford AI Lab source:
+
+https://ai.stanford.edu/~amaas/data/sentiment/
+
+After downloading, place the following file inside the project root directory:
+
+aclImdb_v1.tar.gz
+
+The notebook will automatically extract and prepare the dataset during execution.
 
 ---
 
